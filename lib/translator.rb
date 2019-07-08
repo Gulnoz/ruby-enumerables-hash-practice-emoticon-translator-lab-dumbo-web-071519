@@ -22,7 +22,7 @@ end
 
 def get_english_meaning(file_path, emoticon)
   hash=load_library(file_path)
-  hash['get_meaning'][emoticon]
+  result=hash['get_meaning'][emoticon]
   if result
    return result
  else
